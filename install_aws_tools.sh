@@ -8,3 +8,4 @@ unzip aws-sam-cli-linux-x86_64.zip -d sam-installation
 sudo ./sam-installation/install
 rm -rf aws-sam-cli-linux-x86_64.zip sam-installation/
 npm install -g aws-cdk
+pip install git-remote-codecommit
