@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full
-
-RUN pip install awscli
+COPY install_aws_tools.sh /home/gitpod
+RUN sh install_aws_tools.sh && rm install_aws_tools.sh
