@@ -1,1 +1,7 @@
-image: gitpod/workspace-full
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Setup aws cli credentials
+    command: |
+      bash setup-aws-cli.bash
